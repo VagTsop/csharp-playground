@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C147520B-8DFD-40C1-9302-0643BAD35216}</ProjectGuid>
+    <ProjectGuid>{81FF2E55-5B4D-46DE-BD05-D7561A7F543C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TestApp</RootNamespace>
-    <AssemblyName>TestApp</AssemblyName>
+    <RootNamespace>ConsoleAppExercise</RootNamespace>
+    <AssemblyName>ConsoleAppExercise</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj">
-      <Project>{86b087ee-4d90-489a-acc8-209984fd7078}</Project>
+      <Project>{4813e915-f501-4fba-ae12-5d7fe00fb1fb}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
   </ItemGroup>
