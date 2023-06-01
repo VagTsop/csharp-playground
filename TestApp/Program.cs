@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.NetworkInformation;
 
 namespace TestApp
 {
@@ -44,7 +45,7 @@ namespace TestApp
             */
 
             /* 
-            2
+            3
             Write a C# program to get nearest thousand of given integer number. Here, let name the input value as "number".
             If the number's last three digits are greater than or equal to 500; it should "round up" the number.
             If the number's last three digits are less than 500; it should "round down" the number.
@@ -59,7 +60,6 @@ namespace TestApp
             */
 
             /* 
-            3
             int totalSeconds = 288970;
             int days = totalSeconds / 86400;
             int hours = (totalSeconds - days * 86400) / 3600;
@@ -362,10 +362,32 @@ namespace TestApp
                }
             } while (AccountChoice != 0);
               */
-            Customer c1;
-            Customer c2;
-            c1 = new Customer();
-            c2 = new Customer();
+            //Customer c1;
+            //Customer c2;
+            //c1 = new Customer();
+            //c2 = new Customer();
+
+
+            // -------------------- //
+
+            //Create a C# program with a class called DebitCard with a property called "Pin" with validations in the set accessor.
+
+            //The Pin should be exactly 4 digits or 6 digits.
+
+            //If the supplied pin is invalid, it shows error message.
+
+
+            //DebitCard card = new DebitCard();
+
+            //card.Pin = "1234";
+            //card.Pin = "1234ef";
+            //card.Pin = "123456";
+            //card.Pin = "0";
+            //card.Pin = "a4";
+
+            //Console.ReadLine();
+
+            // -------------------- //
         }
     }
 }
